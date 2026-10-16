@@ -12,13 +12,13 @@
 </head>
 <body>
 
-    <!-- HERO / CABEÇALHO  -->
+    <!-- HERO / CABEÇALHO -->
     <header class="hero">
         <div class="hero-overlay"></div>
         <div class="container hero-content">
-            <img src="logovitta.png" alt="Logo Vitta Master Pró" class="logo-img">
+            <img src="logovitta.png" alt="Logo Vitta Master Pró" class="logo-img" width="220" height="220">
 
-            <!-- AVISO  -->
+            <!-- AVISO -->
             <div class="lembrete-wrapper" id="lembrete">
                 <div class="fita-adesiva"></div>
                 <div class="lembrete-papel">
@@ -33,7 +33,8 @@
 
                     <div class="caixa-promocao">
                         <div class="carimbo-promocao">Condição Especial</div>
-                        <h3 class="promocao-titulo">Vantagens Exclusivas para Alunos Fundadores</h3>
+                        <!-- Ajustado para h2 para manter a hierarquia correta -->
+                        <h2 class="promocao-titulo" style="font-size: 1.5rem; margin-bottom: 15px;">Vantagens Exclusivas para Alunos Fundadores</h2>
                         <p class="promocao-sub">Garanta a sua vaga de pré-inscrição e ganhe o nosso <strong>Check-up Funcional Inicial</strong> completo:</p>
                         
                         <ul class="lista-itens-promocao">
@@ -69,41 +70,44 @@
         </div>
     </header>
 
-    <!-- SOBRE A METODOLOGIA (SEM FOTOS / SEM COMENTÁRIOS) -->
-    <section class="section-metodologia bg-claro">
-        <div class="container text-center">
-            <span class="tag">Nosso Método</span>
-            <h2>Treino integrado para o seu bem-estar</h2>
-            <p class="subtitulo-secao">Ambiente calmo, climatizado, sem aglomerações e com orientação direta em cada repetição.</p>
-            
-            <div class="cards-metodo-simples">
-                <div class="card-item">
-                    <h3>Musculação Protegida</h3>
-                    <p>Foco no fortalecimento dos músculos para blindar as articulações e resgatar a autonomia diária.</p>
-                </div>
+    <!-- CONTEÚDO PRINCIPAL ENVOLVIDO NA TAG <MAIN> -->
+    <main>
+        <!-- SOBRE A METODOLOGIA -->
+        <section class="section-metodologia bg-claro">
+            <div class="container text-center">
+                <span class="tag">Nosso Método</span>
+                <h2>Treino integrado para o seu bem-estar</h2>
+                <p class="subtitulo-secao">Ambiente calmo, climatizado, sem aglomerações e com orientação direta em cada repetição.</p>
+                
+                <div class="cards-metodo-simples">
+                    <div class="card-item">
+                        <h3>Musculação Protegida</h3>
+                        <p>Foco no fortalecimento dos músculos para blindar as articulações e resgatar a autonomia diária.</p>
+                    </div>
 
-                <div class="card-item">
-                    <h3>Treino Funcional</h3>
-                    <p>Exercícios dinâmicos focados no equilíbrio, reflexos motores e prevenção de dores ou quedas.</p>
-                </div>
+                    <div class="card-item">
+                        <h3>Treino Funcional</h3>
+                        <p>Exercícios dinâmicos focados no equilíbrio, reflexos motores e prevenção de dores ou quedas.</p>
+                    </div>
 
-                <div class="card-item">
-                    <h3>Pilates & Mobilidade</h3>
-                    <p>Alongamento ativo, alinhamento postural e alívio de tensões crônicas da coluna.</p>
+                    <div class="card-item">
+                        <h3>Pilates & Mobilidade</h3>
+                        <p>Alongamento ativo, alinhamento postural e alívio de tensões crônicas da coluna.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- PRÉ-CADASTRO -->
-    <section class="section-cta bg-verde-escuro">
-        <div class="container text-center">
-            <h2>As vagas para Alunos Fundadores são limitadas!</h2>
-            <p>Trabalhamos com turmas reduzidas para assegurar atenção total. Entre em contato agora mesmo e reserve sua vaga para a semana inaugural.</p>
-            <a href="https://wa.me/5521969459657?text=Olá!%20Quero%20saber%20mais%20sobre%20as%20vagas%20de%20alunos%20fundadores!" class="btn btn-secundario">Falar com a nossa recepção</a>
-        </div>
-    </section>
-
+        <!-- PRÉ-CADASTRO -->
+        <section class="section-cta bg-verde-escuro">
+            <div class="container text-center">
+                <h2>As vagas para Alunos Fundadores são limitadas!</h2>
+                <p>Trabalhamos com turmas reduzidas para assegurar atenção total. Entre em contato agora mesmo e reserve sua vaga para a semana inaugural.</p>
+                <a href="https://wa.me/5521969459657?text=Olá!%20Quero%20saber%20mais%20sobre%20as%20vagas%20de%20alunos%20fundadores!" class="btn btn-secundario">Falar com a nossa recepção</a>
+            </div>
+        </section>
+    </main>
+    
     <!-- RODAPÉ -->
     <footer>
         <div class="container footer-grid">
@@ -119,7 +123,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>© 2026 Vitta Master Pró. Todos os direitos reservados.</p>
+            <p>&copy; 2026 Vitta Master Pró. Todos os direitos reservados.</p>
             <p>Desenvolvido por <a href="https://stofel.dev" target="_blank" rel="noopener noreferrer" style="color: #ffffff; font-weight: bold; text-decoration: none;">Stofel Dev</a></p>
         </div>
     </footer>
